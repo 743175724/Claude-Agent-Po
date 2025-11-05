@@ -1,0 +1,84 @@
+{
+  "name": "My Agents Project",
+  "description": "Windows-centric multi-domain agent team with governance, kernel, UI, security, game, web, and quality operations roles.",
+  "plugins": [
+    {
+      "id": "project-governance",
+      "name": "Project Governance",
+      "domains": ["project-management", "architecture"],
+      "agents": [
+        "项目负责人（Project Orchestrator）",
+        "技术架构师（System Architect）"
+      ]
+    },
+    {
+      "id": "windows-development",
+      "name": "Windows Development",
+      "domains": ["c++", "build"],
+      "agents": [
+        "C/C++ 系统开发工程师",
+        "构建与发布工程师（Build & Release Engineer）"
+      ]
+    },
+    {
+      "id": "windows-kernel",
+      "name": "Windows Kernel",
+      "domains": ["driver", "kernel-qa"],
+      "agents": [
+        "驱动开发工程师（Driver Developer）",
+        "Kernel QA 与合规工程师"
+      ]
+    },
+    {
+      "id": "desktop-ui",
+      "name": "Desktop UI",
+      "domains": ["ui", "rendering"],
+      "agents": [
+        "UI/UX 设计师",
+        "IMGUI 工程师",
+        "ExDUIR 工程师"
+      ]
+    },
+    {
+      "id": "reverse-engineering",
+      "name": "Reverse Engineering & Security",
+      "domains": ["reverse", "security"],
+      "agents": [
+        "逆向分析工程师（Reverse Engineer）",
+        "安全工程师（Anti-Tamper）",
+        "安全测试工程师（Blue Team）"
+      ]
+    },
+    {
+      "id": "game-development",
+      "name": "Game Development",
+      "domains": ["unreal", "unity", "engine"],
+      "agents": [
+        "虚幻引擎工程师（Unreal Engine Engineer）",
+        "Unity 工程师",
+        "引擎技术总监（跨引擎）"
+      ]
+    },
+    {
+      "id": "web-platform",
+      "name": "Web Platform",
+      "domains": ["frontend", "backend", "devops"],
+      "agents": [
+        "前端工程师（Frontend Engineer）",
+        "后端工程师（Backend Engineer）",
+        "PHP 平台工程师（PHP Platform Engineer）",
+        "Python 平台工程师（Python Platform Engineer）",
+        "DevOps / SRE 工程师"
+      ]
+    },
+    {
+      "id": "quality-operations",
+      "name": "Quality & Documentation",
+      "domains": ["qa", "documentation"],
+      "agents": [
+        "测试工程师（Quality Assurance Engineer）",
+        "技术文档工程师（Technical Documentation Engineer）"
+      ]
+    }
+  ]
+}
