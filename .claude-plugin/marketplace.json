@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    {
+      "name": "project-management",
+      "title": "Project Management Orchestrator",
+      "description": "Workflow coordination utilities for dispatching and sequencing multi-domain tasks across Windows, game, and web projects.",
+      "categories": ["orchestration", "planning"],
+      "agents": ["intelligent-task-dispatcher"],
+      "commands": ["prioritize-backlog", "handoff-brief"],
+      "skills": ["domain-context-map", "milestone-mapping"]
+    },
+    {
+      "name": "quality-assurance",
+      "title": "Quality Assurance & Remediation",
+      "description": "Roles and tools for bug remediation, deep diagnostics, and rigorous code review with rework enforcement.",
+      "categories": ["qa", "code-review"],
+      "agents": ["bug-fix-specialist", "code-reviewer"],
+      "commands": ["bugfix-playbook", "enforce-rework-loop"],
+      "skills": ["root-cause-analysis", "compliance-audit"]
+    }
+  ]
+}
